@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Search CDN</title>
+  <link rel='stylesheet' href='https://jsd.onmicrosoft.cn/npm/bootstrap@4.5.2/dist/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+  <nav class="navbar navbar-light" style="background: #343535;">
+    <a class="navbar-brand"> <img alt="Brand"  height="40" src="https://cdnjs.com/_/f7a2ebfb819c118086546e481876aef6.svg"></a>
+    <form class="form-inline">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="cdn">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </nav>
+  <div class="container">
+    <div id='filter'>
+      分类: <button class='CSS'>CSS</button>
+      <button class='JS'>JS</button>
+      <button class=''>全部</button>
+    </div>
+    <br>
+    
+    <ul id="results"></ul>
+
+  </div>
+  <!-- partial -->
+  <script src='https://cdnjs.loli.net/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://jsd.onmicrosoft.cn/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
